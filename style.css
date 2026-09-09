@@ -1,0 +1,29 @@
+:root
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+ max-width: 1200px;
+ width: 100%;   
+ margin: auto;
+ background-color: #00B98E;
+}
+.header{
+    height: 100vh;
+    margin: 20px;
+    background-color: #FFFF;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.navlist{
+    display: flex;
+    margin-left: auto;
+}
