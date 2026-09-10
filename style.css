@@ -7,23 +7,144 @@
     box-sizing: border-box;
 }
 body{
- max-width: 1200px;
  width: 100%;   
  margin: auto;
- background-color: #00B98E;
 }
 .header{
     height: 100vh;
-    margin: 20px;
     background-color: #FFFF;
+    
+    
 }
 .navbar{
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 10px;
+
+    margin: 0 50px;
+    margin-top: 50px;
+    padding: 20px;
+    background: whitesmoke;
+
+    position: relative;
+}
+.navlogolink{
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+}
+.navlogo{
+    width: 60px;
+    height: 60px;
+
+    border: 3px dotted #00B98E;
+    padding: 10px;
+    border-radius: 50px;
+}
+.navlogotext{
+    padding-top: 8px;
+    margin-left: -10px;
+    font-size: 38px;
+    font-weight: 600;
+    color: #00B98E;
 }
 .navlist{
     display: flex;
+    gap: 30px;
     margin-left: auto;
+
+    list-style: none;
+}
+.navlink a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 400;
+}
+.navlink a:hover {
+    color: #00B98E;
+}
+.navbtn{
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    margin-left: 30px;
+    font-size: 20px;
+
+    color: #FFFF;
+    border: 1px solid #00B98E;
+    background-color: #00B98E;
+}
+.header-container{
+    display: flex;
+}
+.container-text{
+    flex: 1;
+}
+.container-text h2{
+    font-size: 52px;
+    color: #0E2E50;
+    margin-top: 35px;
+    padding: 45px 45px;
+}
+.container-text h2 span{
+    font-size: 52px;
+    color: #00B98E;
+    font-weight: 600;
+}
+.container-text p{
+    padding: 5px 45px;
+    margin-top: -20px;
+    font-size: 18px;
+    color: gray;
+}
+.headerbtn{
+    background-color: #00B98E;
+    padding: 20px 50px;
+    margin: 30px 40px;
+
+    color: #FFFF;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+}
+
+.container-img{
+    flex: 1;
+    width: 50%;
+}
+.container-img img{
+    height: 700px;
+    width: 100%;
+    object-fit: fill;
+    margin-top: -150px;
+    z-index: 0;
+}
+.header-form-section{
+    position: absolute;
+    height: 110px;
+    width: 1200px;
+
+    margin-top: -55px;
+    background-color: #00B98E;
+}
+.header-form{
+    margin: 30px 10px 30px 50px;
+}
+.header-input{
+    margin: 0 10px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: none;
+}
+.header-input-btn{
+    margin: 0 10px;
+    padding: 15px 70px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+    background-color: #0E2E50;
+    color: #FFFF;
 }
