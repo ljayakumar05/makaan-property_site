@@ -124,13 +124,16 @@ body{
 .header-form-section{
     position: absolute;
     height: 110px;
-    width: 1200px;
+    width: 100%;
 
-    margin-top: -55px;
+    margin-top: -85px;
     background-color: #00B98E;
 }
 .header-form{
-    margin: 30px 10px 30px 50px;
+    margin: 35px 10px 30px 100px;
+
+    display: flex;
+    flex-wrap: wrap;
 }
 .header-input{
     margin: 0 10px;
@@ -147,4 +150,26 @@ body{
 
     background-color: #0E2E50;
     color: #FFFF;
+}
+.property-section{
+    height: 100vh;
+    margin-top: 150px;
+}
+.property-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.property-head h2{
+    font-size: 52px;
+    font-weight: 600;
+    color: #0E2E50;
+} 
+.property-head p{
+    margin: 20px auto;
+    width: 65%;
+
+    font-size: 22px;
+    color: grey;
 }
