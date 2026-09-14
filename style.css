@@ -118,7 +118,7 @@ body{
     height: 700px;
     width: 100%;
     object-fit: fill;
-    margin-top: -150px;
+    margin-top: -100px;
     z-index: 0;
 }
 .header-form-section{
@@ -172,4 +172,44 @@ body{
 
     font-size: 22px;
     color: grey;
+}
+.property-gallery{
+    margin: 20px 20px;
+}
+.property-gallery-section{
+    margin: 20px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.property-list{
+    border: 2px dotted #00B98E;
+    outline: 10px solid rgba(32, 201, 151, 0.2);
+    
+    padding: 30px;
+    margin: 20px auto;
+}
+.property-list-img{
+    border: 3px dotted #00B98E;
+    padding: 20px;
+    border-radius: 50%;
+    margin: 30px 40px;
+}
+.property-logo{
+    width: 60px;
+    height: 60px;
+}
+.property-list h2{
+    text-align: center;
+    font-size: 28px;
+    padding-bottom: 20px;
+}
+.property-list a{
+    text-decoration: none;
+}
+.property-list p{
+    text-align: center;
+    color: #00B98E;
+    font-size: 20px;
+    padding-bottom: 20px;
 }
